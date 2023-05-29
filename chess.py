@@ -412,7 +412,11 @@ def drawBoard(boardArray):
     print()
     for i in range(len(board1)):
         for j in range(len(board1[i])):
-            print('{:4}'.format(board1[i][j]),end=" ")
+            text = '{:4}'.format(board1[i][j])
+            if 'b' in board1[i][j]:
+                print("\033[0;30m"+text,end=" ")
+            else:
+                print("\033[0;37m"+text,end=" ")
         print()
     print()
     return
