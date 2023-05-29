@@ -29,8 +29,6 @@ Rook = 50, Queen = 90, and King = 100. The score was calculated by getting the t
 all the pieces for each player on the board and then finding the difference in score between players.
 The evaulation function is used to calculate the best moves within the min-max tree.
 
-<img width="590" alt="Screen Shot 2023-05-29 at 3 07 01 PM" src="https://github.com/tanya-nantsa/ChessGame/assets/77226151/7fc9c538-83ac-4c3c-bfea-13968cb5a68b">
-
 <img width="590" alt="Screen Shot 2023-05-29 at 3 07 15 PM" src="https://github.com/tanya-nantsa/ChessGame/assets/77226151/aa4d176b-c1c2-453e-8114-0363469d19b3">
 
 <img width="590" alt="Screen Shot 2023-05-29 at 3 07 37 PM" src="https://github.com/tanya-nantsa/ChessGame/assets/77226151/47aeb9e5-75cc-4642-99be-0b392f69aa4d">
